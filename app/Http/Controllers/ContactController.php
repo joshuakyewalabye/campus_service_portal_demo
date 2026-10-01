@@ -18,7 +18,10 @@ class ContactController extends Controller
     {
         //stored all retrieved results in a variable
         $contacts = Contact::all();
-        return view('contact-list');
+
+// compact('contacts'): This is a native PHP function. It takes the variable name as a string ('contacts') and converts it into an associative array: ['contacts' => $contacts]. This passes the $contacts variable from your controller straight into your Blade template so you can loop through and display them.
+
+        return view('contact-list', compact('contacts'));
     }
     /**
      * Show the form for creating a new resource.
