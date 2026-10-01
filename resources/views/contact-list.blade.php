@@ -1,4 +1,4 @@
-@extends(layouts.main)
+@extends('layouts.main')
 @section('contect')
     <!-- Start: Header -->
 @include('layouts.header')
