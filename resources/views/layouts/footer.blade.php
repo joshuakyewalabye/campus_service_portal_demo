@@ -16,6 +16,7 @@
                         <li><a href="requests/create.html" class="hover:text-white">Open a ticket</a></li>
                         <li><a href="staff/dashboard.html" class="hover:text-white">Staff inbox</a></li>
                         <li><a href="contact.html" class="hover:text-white">Contact us</a></li>
+                         <li><a href="contact-list.html" class="hover:text-white">Contact list</a></li>
                     </ul>
                 </div>
                 <div>
