@@ -14,7 +14,7 @@
                     <a href="#services" class="text-slate-500 hover:text-slate-900 transition-colors text-sm font-medium">Services</a>
                     <a href="#who" class="text-slate-500 hover:text-slate-900 transition-colors text-sm font-medium">Who can use it</a>
                     <a href="{{route('contact')}}" class="text-slate-500 hover:text-slate-900 transition-colors text-sm font-medium">Contact us</a>
-                     <a href="contact-list.html" class="text-slate-900 text-sm font-medium">Contact list</a>
+                     <a href="{{route('contact-list')}}" class="text-slate-900 text-sm font-medium">Contact list</a>
                     <a href="login.html" class="px-5 py-2.5 border border-slate-200 text-slate-900 rounded-lg font-medium text-sm hover:bg-white hover:border-[#2563eb]/40">Sign in</a>
                     <a href="register.html" class="px-5 py-2.5 bg-[#2563eb] text-white rounded-lg font-medium text-sm hover:bg-[#1d4ed8] glow-blue">Create account</a>
                 </div>
@@ -30,7 +30,7 @@
                     <a href="#services" class="text-slate-500 hover:text-slate-900 text-sm font-medium">Services</a>
                     <a href="#who" class="text-slate-500 hover:text-slate-900 text-sm font-medium">Who can use it</a>
                     <a href="{{route('contact')}}" class="text-slate-500 hover:text-slate-900 text-sm font-medium">Contact us</a>
-                    <a href="contact-list.html" class="text-slate-900 text-sm font-medium">Contact list</a>
+                    <a href="{{route('contact-list')}}" class="text-slate-900 text-sm font-medium">Contact list</a>
                     <a href="login.html" class="px-5 py-2.5 border border-slate-200 text-slate-900 rounded-lg font-medium text-sm text-center">Sign in</a>
                     <a href="register.html" class="px-5 py-2.5 bg-[#2563eb] text-white rounded-lg font-medium text-sm text-center">Create account</a>
                 </div>
