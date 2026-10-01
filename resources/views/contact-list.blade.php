@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('contect')
+@section('content')
     <!-- Start: Header -->
 @include('layouts.header')
     <!-- End: Header -->

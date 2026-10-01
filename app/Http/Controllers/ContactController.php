@@ -16,6 +16,8 @@ class ContactController extends Controller
 
     public function contactList()
     {
+        //stored all retrieved results in a variable
+        $contacts = Contact::all();
         return view('contact-list');
     }
     /**
