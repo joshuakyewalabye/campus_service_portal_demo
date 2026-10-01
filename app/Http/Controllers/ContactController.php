@@ -14,9 +14,9 @@ class ContactController extends Controller
         //
     }
 
-    public function contact()
+    public function contactList()
     {
-        return view('contact');
+        return view('contact-list');
     }
     /**
      * Show the form for creating a new resource.
