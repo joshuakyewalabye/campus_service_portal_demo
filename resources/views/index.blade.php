@@ -270,4 +270,4 @@
     <!-- Start: Footer -->
    @include('layouts.footer')
     <!-- End: Footer -->
-@endsectionS
+@endsection
